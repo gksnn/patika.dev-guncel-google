@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*NavBar*/
+#navbar {
+  position: relative;
+  left: 97rem;
+  top: 0.5rem;
+}
+
+#navbar a {
+  color: black;
+  position: relative;
+  bottom: 0.7rem;
+  right: 1rem;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-right: 1px;
+}
+
+#navbar a:first-child {
+  margin-right: 10px;
+}
+
+/*Body*/
+
+#googleimg {
+  position: relative;
+  height: 8rem;
+  left: 44.8rem;
+  top: 10.2rem;
+}
+
+#search-area {
+  width: 35rem;
+  padding: 0.6rem;
+  position: relative;
+  left: 17rem;
+  top: 13rem;
+  border: 1px solid rgba(204, 198, 198, 0.827);
+  border-radius: 20px;
+  outline: none;
+  font-size: 1rem;
+}
+
+#search-area:hover {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.fa-magnifying-glass {
+  position: relative;
+  left: 10rem;
+  top: 13.1rem;
+  cursor: pointer;
+}
+
+.fa-keyboard {
+  position: relative;
+  left: 11rem;
+  top: 13.1rem;
+  cursor: pointer;
+}
+
+.fa-microphone {
+  position: relative;
+  left: 12rem;
+  top: 13.1rem;
+  cursor: pointer;
+}
+
+.box1 {
+  background: #f8f9fa;
+  position: relative;
+  width: 8rem;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 0.3rem;
+  border-radius: 10px;
+  left: 43rem;
+  top: 15rem;
+}
+
+.box1:hover{
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+  color: #3c4043;
+}
+
+.box2{
+  background: #f8f9fa;
+  position: relative;
+  width: 15rem;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 0.3rem;
+  left: 51.5rem;
+  top:13.2rem;
+  border-radius: 10px;
+}
+
+.eng{
+  color: blue;
+  font-family: sans-serif;
+  position: relative;
+  font-size: 0.7rem;
+  left: 59.8rem;
+  top: 13.7rem;
+}
+
+
+p{
+  font-family: sans-serif;
+  position: relative;
+  font-size: 0.8rem;
+  left: 45.8rem;
+  top: 14.7rem;
+}
